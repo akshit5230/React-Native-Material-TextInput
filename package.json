@@ -1,0 +1,30 @@
+{
+  "name": "rn-material-textinput",
+  "version": "1.0.0",
+  "description": "Simple material style TextInput wrapper component to use in your projects. Animated labels and color customisations available. Thanks for trying this!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Testing success\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshit5230/React-Native-Material-Textinput.git"
+  },
+  "keywords": [
+    "material",
+    "textinput",
+    "animated",
+    "custom",
+    "react",
+    "native",
+    "android",
+    "ios",
+    "iphone"
+  ],
+  "author": "akshit5230",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshit5230/React-Native-Material-Textinput/issues"
+  },
+  "homepage": "https://github.com/akshit5230/React-Native-Material-Textinput#readme"
+}
