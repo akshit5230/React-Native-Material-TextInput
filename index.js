@@ -3,8 +3,6 @@ import {
   View,
   Image,
   TextInput,
-  StyleSheet,
-  Dimensions,
   Animated,
 } from 'react-native';
 import PropTypes from 'prop-types';
