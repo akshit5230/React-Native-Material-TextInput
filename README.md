@@ -69,8 +69,12 @@ export default class MyExample extends React.Component {
 | focusedBorderBottomColor | provide custom color for bottom border when focused | "#DDFFFF" |
 | labelStyle | give styling to label text | { fontSize: 15, color: "#dsdsdd", fontFamily: "Nunito-Bold"} |
 | inputStyle | give styling to input text | { fontSize: 18, color: "#dsgfgd", fontFamily: "Nunito-Bold"} |
-| handleFocus() | fuction to focus the input programmatically | `this._emailInputRef._inputRef.handleFocus()` |
-| handleBlur() | fuction to unfocus the input programmatically | `this._emailInputRef._inputRef.handleBlur()` |
+
+## Functions
+| Name | Usage | Example |
+| --- | --- | --- |
+| handleFocus() | fuction to focus the input programmatically | `this._emailInputRef.handleFocus()` |
+| handleBlur() | fuction to unfocus the input programmatically | `this._emailInputRef.handleBlur()` |
 
 You can provide other props available to TextInput component. For example 
 `secureTextEntry={true},
@@ -90,6 +94,6 @@ In cases such as prefilled values in the input, you need to focus the inputs to 
 Use reference to focus that input
 ```
 componentDidMount() {
-  this._emailInputRef._inputRef.handleFocus()
+  this._emailInputRef.handleFocus()
 }
 ```
